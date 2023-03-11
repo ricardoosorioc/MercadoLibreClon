@@ -2,67 +2,110 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    font-family: Roboto, 'sans-serif';
-  }
 
-.debug{
+    font-family: Roboto, 'sans-serif';
+}
+
+.debug {
     border: 1px solid red;
 }
 
-body{
+body {
     display: flex;
     height: 100vh;
     width: 100vh;
-    
-}
-main{
-    
-    
 
 }
-header{
+
+main {}
+
+header {
     background-color: #FFF159;
 }
 
-section{
+section {
     background-color: #EBEBEB;
 }
 
-footer{
+footer {
     background-color: #E6E6E6;
 }
-.logo-barra{
+
+.logo-barra {
     display: flex;
     flex-direction: row;
-    justify-content:safe;
+    justify-content: safe;
     padding-left: 166px;
     margin-top: 5px;
     margin-bottom: 5px;
-    
+
 }
 
-.space-btw{
+.space-btw {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
-    
+    justify-content: space-evenly;
+
 }
 
-.domicilio{
+.domicilio {
     padding-left: 0px;
     margin-bottom: 11px;
     color: #333333;
+    font-size: small;
+    font-weight: 600;
 }
 
-.elementos-header{
+.elementos-header {
     margin-bottom: 11px;
     color: #33333399;
-    display:flexbox;
+    display: flex;
+    align-items: center;
+    font-size: small;
     justify-content: space-between;
     text-size-adjust: 22px;
+    gap: 12px;
+}
 
+.icon-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    font-size: small;
+}
+
+.lista {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon-list {
+    display: flex;
+    gap: 24px;
+    padding: 22px 10px;
+    overflow-x: auto;
+    justify-content:space-around;
+    background-color: white;
+    width: 1200px;
+    margin: auto;
+    margin-bottom: 30px;
+   
     
 }
 
+.ver-mas {
+    color: #3483FA;
+    font-size: smaller;
+}
 
+.icon-link > svg{
+    fill: #0864EE;
+    border-radius: 50px;
+    background-color: aliceblue;
+}
+
+.rotate{
+
+    transform: scaleX(-1);
+}
