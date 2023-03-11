@@ -46,6 +46,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: baseline;
+    gap: 4px;
 
 }
 
@@ -156,3 +158,82 @@ footer {
     font-weight: bolder;
     padding-left: 16px;
 }
+.subscripcion{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 6px;
+    overflow-x: auto;
+    justify-content: space-around;
+    margin: auto;
+    width: 1200px;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.subscripcion-header{
+    display: flex;
+    justify-content: space-between;
+    height: 87px;
+    background: rgb(77,6,65);
+    background: linear-gradient(90deg, rgba(77,6,65,1) 0%, rgba(169,15,144,1) 56%, rgba(12,26,81,1) 100%);
+    align-items: center;
+    color: white;
+    padding: 24px 24px;
+}
+
+.subscripcion-header-precios{
+    display: flex;
+    flex-direction: column;
+    font-weight: 800;
+    padding-left: 10px;
+    border-style:groove;
+    border-right: #E6E6E6;
+    border-top: #E6E6E6;
+    border-bottom: #E6E6E6;
+}
+
+.subscripcion-iconos {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    padding-top: 10px;
+    padding-bottom: 1px;
+    padding-left: 25px;
+    padding-right: 70px;
+    overflow-x: auto;
+    justify-content: space-between;
+    width: 1200px;
+
+    margin-bottom: 10px;
+    margin-left: 0%;
+}
+
+.icono-subscripcion{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    
+    justify-content:space-between;
+}
+.subscripcion-boton{
+    display: flex;
+    justify-content: flex-end;
+    
+    padding: 15px 36px;
+    padding-top: 5px;
+}
+
+.button {
+    border: none;
+    color:white;
+    background-color: #3483FA;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
