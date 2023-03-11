@@ -15,9 +15,9 @@ body {
     height: 100vh;
     width: 100vh;
 
+
 }
 
-main {}
 
 header {
     background-color: #FFF159;
@@ -25,6 +25,7 @@ header {
 
 section {
     background-color: #EBEBEB;
+    margin: 0 auto;
 }
 
 footer {
@@ -85,27 +86,73 @@ footer {
     gap: 24px;
     padding: 22px 10px;
     overflow-x: auto;
-    justify-content:space-around;
+    justify-content: space-around;
     background-color: white;
     width: 1200px;
     margin: auto;
     margin-bottom: 30px;
-   
-    
 }
 
 .ver-mas {
     color: #3483FA;
     font-size: smaller;
 }
-
-.icon-link > svg{
+.secciones-header{
+    color: #666666;
+    font-size:large;
+    font-weight: 400;
+}
+.icon-link>svg {
     fill: #0864EE;
     border-radius: 50px;
     background-color: aliceblue;
 }
 
-.rotate{
+.seccion-ofertas{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 22px 10px;
+    overflow-x: auto;
+    justify-content: space-around;
+    margin: auto;
+    width: 1200px;
+}
+.seccion-ofertas-header{
+    display: flex;
+    justify-content:flex-start;
+    gap: 8px;
+    align-items: baseline;
+}
+.seccion-ofertas-container{
+    display: flex;
+    gap: 16px;
+}
+.card-ofertas{
+    display: flex;
+    flex-direction: column;
+    gap: 11.8px;
+    padding-bottom: 58px;
+    background-color: white;
+    width: 224px;
 
-    transform: scaleX(-1);
+}
+.card-ofertas-precio{
+    color: #333333;
+    font-size: 23px;
+    font-weight:600;
+    padding-left: 16px;
+    
+}
+.card-ofertas-descuento{
+    color: #00A650;
+    font-size: 14px;
+    padding-left: 11.28px;
+
+}
+.envio-gratis{
+    color: #00A650;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-left: 16px;
 }
