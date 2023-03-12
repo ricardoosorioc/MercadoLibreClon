@@ -101,7 +101,7 @@ footer {
 }
 .secciones-header{
     color: #666666;
-    font-size:large;
+    font-size: 26px;
     font-weight: 400;
 }
 .icon-link>svg {
@@ -311,3 +311,60 @@ footer {
     
     justify-content:end;
 }
+.seccion-descubre{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 22px 10px;
+    overflow-x: auto;
+    justify-content: space-around;
+    margin: auto;
+    width: 1200px;
+}
+.mercado-puntos-container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    
+
+}
+.seccion-descubre-container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    
+
+}
+.card-descubre{
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    padding-top: 0px;
+    padding-left: 0px;
+    border-radius: 6px;
+    gap: 14px;
+    border-radius: 6px;
+    padding-bottom: 0px;
+    width: 584px;
+    height: 250px;
+    justify-content: end;
+
+}
+.texto-card-descubre{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    padding-top: 46px;
+}
+.button-descubre {
+    border: none;
+    color:white;
+    background-color: #3483FA;
+    padding: 12px 8px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    cursor: pointer;
+    width: 96px;
+    height: 36px;
+  }
