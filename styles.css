@@ -120,7 +120,7 @@ footer {
     margin: auto;
     width: 1200px;
 }
-.seccion-ofertas-header{
+.seccion-header{
     display: flex;
     justify-content:flex-start;
     gap: 8px;
@@ -425,4 +425,43 @@ footer {
     gap: 5px;
     justify-content: center;
     padding: 10px 30px;
+}
+.seccion-colecciones-conteiner{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.card-colecciones{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 4px;
+    gap: 20px;
+
+    width: 383px;
+    height: 384px;
+    align-items:flex-start;
+}
+.seccion-colecciones{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 72px 10px;
+    overflow-x: auto;
+    justify-content: space-around;
+    margin: auto;
+    width: 1200px;
+}
+.colecciones-items-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+.colecciones-items{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    border-radius: 4px;
+
 }
