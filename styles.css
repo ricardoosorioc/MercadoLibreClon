@@ -321,7 +321,7 @@ footer {
     margin: auto;
     width: 1200px;
 }
-.mercado-puntos-container{
+.seccion-descubre-container{
     display: flex;
     flex-direction: row;
     gap: 16px;
@@ -368,3 +368,61 @@ footer {
     width: 96px;
     height: 36px;
   }
+
+  .mejores-tiendas{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 22px 10px;
+    overflow-x: auto;
+    justify-content: space-around;
+    margin: auto;
+    width: 1200px;
+}
+.mejores-tiendas-container{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+.card-mejores-tiendas{
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    gap: 16px;
+    border-radius: 6px;
+    position: relative;
+
+
+    background-color: white;
+    width: 284px;
+    height: 340px;
+    align-items:baseline;
+    justify-content:flex-start;
+
+}
+.mejores-tiendas-header{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items:self-start;
+    position: absolute;
+    padding-top: 55px;
+    padding-left: 104px;
+
+    justify-content:center;
+
+}
+.imagen-header{
+    display: flex;
+    padding-top: 0%;
+    align-self: flex-start;
+    position: relative;
+
+}
+.lego-items{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+    padding: 10px 30px;
+}
