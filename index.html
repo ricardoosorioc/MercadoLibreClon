@@ -1,8 +1,4 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
 
 <head>
@@ -50,7 +46,7 @@
                 </div>
                 <div class="logo-barra" style="padding-left: 52px;">
                     <input name="nombre" placeholder="Buscar productos, marcas y más..." type="search" size="80" />
-                    <button type="button" style="width: 40px; background-color: white;" id="btn-buscar"></button>
+                    <button type="button" style="width: 40px; background-color: white; cursor: pointer;" id="btn-buscar"></button>
                 </div>
 
 
@@ -83,12 +79,15 @@
 
 
         </header>
-
         <section>
-            <div>
-                <div style="margin-bottom: 30px;">
+            <div class="seccion-1" style="margin-bottom: 30px;">
+                <div class="imagen-relativa">
                     <img src="/media/semana-mujer.png" width="1512" height="340px" />
                 </div>
+                <div class="puntos-absolutos">
+                    <img src="/media/puntos.png">
+                </div>
+
             </div>
             <div class="icon-list">
                 <div class="icon-link">
@@ -162,7 +161,6 @@
                             </clipPath>
                         </defs>
                     </svg>
-
                     <div class="lista">
                         <span>
                             <h3>Transferencia desde tu banco</h3>
@@ -201,7 +199,6 @@
                             </clipPath>
                         </defs>
                     </svg>
-
                     <div class="lista">
                         <span>
                             <h3>Paga en efectivo</h3>
@@ -236,11 +233,11 @@
                 </div>
             </div>
             <div class="seccion-ofertas">
-                <div class="seccion-header">
+                <div class="seccion-ofertas-header">
                     <span class="secciones-header">Ofertas</span>
                     <span class="ver-mas">Ver todas</span>
                 </div>
-                <div class="seccion-ofertas-container">
+                <div class="seccion-general-container">
                     <div class="card-ofertas">
                         <img src="/media/silla.png">
                         <div style="display: flex; align-items: center;">
@@ -357,7 +354,7 @@
                     <span class="secciones-header">Beneficios de Mercado Puntos</span>
                     <span class="ver-mas">Ver todos los beneficios</span>
                 </div>
-                <div class="mercado-puntos-container">
+                <div class="seccion-general-container">
                     <div class="card-mercado-puntos-1">
                         <div class="icono-mercado-puntos">
                             <img src="/media/dineyandstar.jpg" style="border-radius: 6px;">
@@ -391,10 +388,10 @@
                 </div>
             </div>
             <div class="seccion-descubre ">
-                <div class="seccion-header">
+                <div>
                     <span class="secciones-header">Descubre</span>
                 </div>
-                <div class="seccion-descubre-container">
+                <div class="seccion-general-container">
                     <div class="card-descubre ">
 
                         <div class="texto-card-descubre">
@@ -427,9 +424,9 @@
             <div class="mejores-tiendas">
                 <div class="seccion-header">
                     <span class="secciones-header">Las mejores tiendas te esperan</span>
-                    <span class="ver-mas" style="padding-left: 30px;">Ver tiendas</span>
+                    <span class="ver-mas">Ver tiendas</span>
                 </div>
-                <div class="mejores-tiendas-container">
+                <div class="seccion-general-container">
                     <div class="card-mejores-tiendas">
                         <div class="imagen-header">
                             <img src="/media/legoHeader.jpg" width="284px" height="95px">
@@ -440,7 +437,7 @@
                         </div>
                         <span
                             style="color: #333333;font-size: 24px; align-self: center; padding-top: 31px; font-weight: bolder;">Lego</span>
-                        <div class="lego-items">
+                        <div class="mejores-tiendas-items">
                             <img src="/media/lego1.png">
                             <img src="/media/lego2.png">
                             <img src="/media/lego3.png">
@@ -458,7 +455,7 @@
                         </div>
                         <span
                             style="color: #333333;font-size: 24px; align-self: center; padding-top: 31px; font-weight: bolder;">Xiaomi</span>
-                        <div class="lego-items">
+                        <div class="mejores-tiendas-items">
                             <img src="/media/xiaomi1.png">
                             <img src="/media/xiaomi2.png">
                             <img src="/media/xiaomi3.png">
@@ -476,7 +473,7 @@
                         </div>
                         <span
                             style="color: #333333;font-size: 24px; align-self: center; padding-top: 31px; font-weight: bolder;">Oster</span>
-                        <div class="lego-items">
+                        <div class="mejores-tiendas-items">
                             <img src="/media/oster1.png">
                             <img src="/media/oster2.png">
                             <img src="/media/oster3.png">
@@ -494,7 +491,7 @@
                         </div>
                         <span
                             style="color: #333333;font-size: 24px; align-self: center; padding-top: 31px; font-weight: bolder;">Nikon</span>
-                        <div class="lego-items">
+                        <div class="mejores-tiendas-items">
                             <img src="/media/nikon1.png">
                             <img src="/media/nikon2.png">
                             <img src="/media/nikon3.png">
@@ -511,7 +508,7 @@
                         <path d="M13.7149 1.25L7.44338 7.5065L1.17188 1.25" stroke="#3483FA" stroke-width="1.5" />
                     </svg>
                 </div>
-                <div class="seccion-colecciones-conteiner">
+                <div class="seccion-general-container">
                     <div class="card-colecciones">
                         <img src="/media/supermercado.png" width="383px" height="281px" style="border-radius: 4px;">
                         <div style="display: flex; flex-direction: column; padding-left: 26px;">
@@ -573,7 +570,8 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span style="font-size: 14px; font-weight: bold;text-align: center;">Carros, Motos y Otros</span>
+                            <span style="font-size: 14px; font-weight: bold;text-align: center;">Carros, Motos y
+                                Otros</span>
                         </div>
                         <div class="card-categorias-populares">
                             <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
@@ -663,7 +661,8 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span style="font-size: 14px; font-weight: bold; text-align: center;">Accesorios<br>para Vehículos</span>
+                            <span style="font-size: 14px; font-weight: bold; text-align: center;">Accesorios<br>para
+                                Vehículos</span>
                         </div>
                         <div class="card-categorias-populares">
                             <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
@@ -718,7 +717,8 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span style="font-size: 14px; font-weight: bold; text-align: center;">Cámaras y <br>Accesorios</span>
+                            <span style="font-size: 14px; font-weight: bold; text-align: center;">Cámaras y
+                                <br>Accesorios</span>
                         </div>
                     </div>
                     <div class="categorias-populares-items">
@@ -762,7 +762,8 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span style="font-size: 14px; font-weight: bold; text-align: center;">Belleza y Cuidado<br>Personal</span>
+                            <span style="font-size: 14px; font-weight: bold; text-align: center;">Belleza y
+                                Cuidado<br>Personal</span>
                         </div>
                         <div class="card-categorias-populares">
                             <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
@@ -821,7 +822,8 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span style="font-size: 14px; font-weight: bold; text-align: center;">Electrónica, Audio<br>y Video</span>
+                            <span style="font-size: 14px; font-weight: bold; text-align: center;">Electrónica,
+                                Audio<br>y Video</span>
                         </div>
                         <div class="card-categorias-populares">
                             <svg width="49" height="49" viewBox="0 0 49 49" fill="none"
@@ -849,7 +851,8 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-                            <span style="font-size: 14px; font-weight: bold; text-align: center;">Consolas y<br>Videojuegos</span>
+                            <span style="font-size: 14px; font-weight: bold; text-align: center;">Consolas
+                                y<br>Videojuegos</span>
                         </div>
                         <div class="card-categorias-populares">
                             <svg width="49" height="49" viewBox="0 0 49 49" fill="none"

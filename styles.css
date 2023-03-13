@@ -58,6 +58,7 @@ footer {
     justify-content: space-around;
     align-items: baseline;
     gap: 4px;
+    margin-bottom: 0%;
 
 }
 
@@ -78,6 +79,32 @@ footer {
     justify-content: space-between;
     text-size-adjust: 22px;
     gap: 15px;
+}
+.seccion-1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 6px;
+    gap: 16px;
+    border-radius: 6px;
+}
+.puntos-absolutos{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items:self-start;
+    position: absolute;
+    padding-top: 318px;
+    padding-left: 726px;
+   
+    justify-content:center;
+
+}
+.imagen-relativa{
+    display: flex;
+    padding-top: 0%;
+    align-self: flex-start;
+    position: relative;
+
 }
 
 .icon-link {
@@ -114,6 +141,7 @@ footer {
     color: #666666;
     font-size: 26px;
     font-weight: 400;
+    padding-right: 7px;
 }
 .icon-link>svg {
     border-radius: 50px;
@@ -122,7 +150,7 @@ footer {
 
 .seccion-ofertas{
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     gap: 24px;
     padding: 22px 10px;
     overflow-x: auto;
@@ -130,14 +158,15 @@ footer {
     margin: auto;
     width: 1200px;
 }
-.seccion-header{
+.seccion-ofertas-header{
     display: flex;
     justify-content:flex-start;
     gap: 8px;
     align-items: baseline;
 }
-.seccion-ofertas-container{
+.seccion-general-container{
     display: flex;
+    flex-direction: row;
     gap: 16px;
 }
 .card-ofertas{
@@ -261,13 +290,6 @@ footer {
     margin: auto;
     width: 1200px;
 }
-.mercado-puntos-container{
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    
-
-}
 .card-mercado-puntos-1{
     display: flex;
     flex-direction: row;
@@ -336,20 +358,6 @@ footer {
     margin: auto;
     width: 1200px;
 }
-.seccion-descubre-container{
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    
-
-}
-.seccion-descubre-container{
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-    
-
-}
 .card-descubre{
     display: flex;
     background-color: white;
@@ -384,7 +392,7 @@ footer {
     height: 36px;
   }
 
-  .mejores-tiendas{
+.mejores-tiendas{
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -393,11 +401,6 @@ footer {
     justify-content: space-around;
     margin: auto;
     width: 1200px;
-}
-.mejores-tiendas-container{
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
 }
 .card-mejores-tiendas{
     display: flex;
@@ -427,6 +430,7 @@ footer {
     justify-content:center;
 
 }
+
 .imagen-header{
     display: flex;
     padding-top: 0%;
@@ -434,18 +438,14 @@ footer {
     position: relative;
 
 }
-.lego-items{
+.mejores-tiendas-items{
     display: flex;
     flex-direction: row;
     gap: 5px;
     justify-content: center;
     padding: 10px 30px;
 }
-.seccion-colecciones-conteiner{
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-}
+
 .card-colecciones{
     display: flex;
     flex-direction: column;
